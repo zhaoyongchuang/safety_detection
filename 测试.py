@@ -4,7 +4,7 @@ import streamlit as st
 col1, col2, col3 = st.columns(3)
 
 # // 设定不同的列标题和展示的内容
-with col1:
+with col1: # // 第一列
     st.header("A cat")
     st.image("https://static.streamlit.io/examples/cat.jpg")
 
